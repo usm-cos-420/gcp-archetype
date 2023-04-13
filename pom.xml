@@ -109,7 +109,7 @@
 				<version>
 					2.4.4</version>
 				<configuration>
-					<projectId>your-project-ID-goes-here</projectId>
+					<projectId>gcp-archetype-383610</projectId>
 					<version>1</version>
 				</configuration>
 			</plugin>
