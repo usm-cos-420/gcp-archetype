@@ -48,7 +48,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		<!-- Dependencies need for DB -->
+		<!-- Dependencies needed for DB -->
 
 		<dependency>
 			<groupId>com.google.cloud.sql</groupId>
