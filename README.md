@@ -13,6 +13,8 @@ detailed instructions.
 * [Maven](https://maven.apache.org/download.cgi) (at least 3.5)
 * [Google Cloud SDK](https://cloud.google.com/sdk/) (aka gcloud)
 
+This document augments the tutorial instructions : https://docs.google.com/document/d/1cqam-V7TtvvltCp7t-ZryNjhq2hNeu_HEM-AzgWw9j0.  We extend the tutorial to support jsp forms and Postgres insert operation. See commits for details on the changes.  
+
 ## Setup
 
     gcloud init
