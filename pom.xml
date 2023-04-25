@@ -12,9 +12,8 @@
 
 	<properties>
 		<!-- Add a project properties for project id to reduce confusion -->
-		<app.deploy.project>gcp-archetype-383610</app.deploy.project> 
+		<app.deploy.projectId>gcp-archetype-383610</app.deploy.projectId>
 		<!-- set up for deployment -->
-		<app.deploy.project>GCLOUD_CONFIG</app.deploy.project>
 		<app.deploy.version>GCLOUD_CONFIG</app.deploy.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -121,20 +120,11 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>2.4.4</version>
 				<configuration>
-				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>
-					com.google.cloud.tools</groupId>
-				<artifactId>appengine-maven-plugin</artifactId>
-				<version>
-					2.4.4</version>
-				<configuration>
-					<projectId>${app.deploy.project}</projectId>
+					<projectId>${app.deploy.projectId}</projectId>
 					<version>1</version>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>
 					org.codehaus.mojo</groupId>
